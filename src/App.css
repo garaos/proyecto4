@@ -1,38 +1,43 @@
-.App {
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+/* Jumbotron */
+.imgJum {
+  background-image: url(./img/img_jumbotron.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.botoncitojt{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.shadou {
+  text-shadow:0 0 5px #000000 ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Footer */
+.colorfb {
+  color: #3b5998;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.colortw {
+  color: #4a78f6;
 }
 
-.App-link {
-  color: #61dafb;
+.colorig {
+  color: #ac2bac;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*Footer efectos hover*/
+.colorfb:hover {
+  color: #0065fd;
+}
+
+.colortw:hover {
+  color: #4aa9f6;
+}
+
+.colorig:hover {
+  color: #ed38ed;
 }
