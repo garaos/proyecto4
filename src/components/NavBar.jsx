@@ -11,7 +11,7 @@ const NavBar=()=>{
           <Nav className="me-auto">
             <Nav.Link href="/">Inicio</Nav.Link>
             <Nav.Link href="/Menu">Menu</Nav.Link>
-            <Nav.Link href="/Reservas">Reservas</Nav.Link>
+            {/* <Nav.Link href="/Reservas">Reservas</Nav.Link> */}
             <Nav.Link href="/Contacto">Contacto</Nav.Link>
           </Nav>
         </Container>
