@@ -12,9 +12,9 @@ const Footer = () => {
                     <h6 className="text-uppercase mb-4 fw-bold"><i className="fa-solid fa-burger"></i> Angry Burger
                         </h6>
                         <div>
-                            <div><Link to="/Menu" className="fs-5 text-decoration-none" >Menu</Link></div>
-                            <div><Link to="/Reservas" className="fs-5 text-decoration-none" >Reservas</Link></div>
-                            <div><Link to="/Contacto" className="fs-5 text-decoration-none" >Contacto</Link></div>
+                            <div><Link to="/Menu" className="fs-5 text-decoration-none text-black " > Menu</Link></div>
+                            <div><Link to="/Contacto" className="fs-5 text-decoration-none text-black" > Contacto</Link></div>
+                            <div><Link to="/Donde" className="fs-5 text-decoration-none text-black" > Locales</Link></div>
                         </div>
                     </div>
 

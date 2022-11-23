@@ -1,15 +1,15 @@
 import NavBar from '../components/NavBar'
-import Reservation from '../contents/Reservation';
+import Donde from '../contents/Donde';
 import Footer from '../components/Footer';
 
-const Reservas = () => {
+const Ubicacion = () => {
     return (
         <div className=''>
             <NavBar />
-            <Reservation />
+            <Donde />
             <Footer />
         </div>
     );
 };
 
-export default Reservas;
+export default Ubicacion;
