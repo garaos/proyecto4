@@ -1,5 +1,6 @@
 import { useFormik } from "formik";
 import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 import { collection, addDoc } from 'firebase/firestore';
 import { db } from "../database/firebase";
 import "./formulario.css"
@@ -24,21 +25,25 @@ const Formulario = () => {
   })
 
   return (
-
-    <form onSubmit={handleSubmit}>
-      <label htmlFor='name'>Nombre</label>
-      <input id='name' name='name' type="text" value={values.name} onChange={handleChange}></input>
-
-      <label htmlFor='email'>Correo</label>
-      <input id='email' name='email' type="email" value={values.email} onChange={handleChange}></input>
-
-      <label htmlFor='contactReason'>Motivo</label>
-      <textarea id='contactReason' name='contactReason' value={values.contactReason} onChange={handleChange}></textarea>
-
-      <div className="mb-2 mt-3">
+<div className="bg-black pb-5">
+<Form onSubmit={handleSubmit} className="bg-black" >
+      <Form.Group>
+      <Form.Label htmlFor='name' className="text-white"> Nombre </Form.Label>
+      <Form.Control id='name' name='name' type="text" value={values.name} onChange={handleChange} placeholder="Ingresa tu Nombre"/>
+      </Form.Group>
+      <Form.Group>
+      <Form.Label htmlFor='email' className="text-white">Correo</Form.Label>
+      <Form.Control id='email' name='email' type="email" value={values.email} onChange={handleChange} placeholder="Ingresa tu Correo"/>
+      </Form.Group>
+      <Form.Group>
+      <Form.Label htmlFor='contactReason' className="text-white">Motivo</Form.Label>
+      <textarea id='contactReason' name='contactReason' value={values.contactReason} onChange={handleChange} placeholder="¿Que necesitas?"></textarea>
+      </Form.Group>
+      <div className="mt-5">
         <Button variant="warning" type='submit' >Enviar</Button>
       </div>
-    </form>
+    </Form>
+</div>
   )
 }
 export default Formulario;

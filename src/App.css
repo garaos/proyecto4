@@ -16,28 +16,3 @@
   text-shadow:0 0 5px #000000 ;
 }
 
-/* Footer */
-.colorfb {
-  color: #3b5998;
-}
-
-.colortw {
-  color: #4a78f6;
-}
-
-.colorig {
-  color: #ac2bac;
-}
-
-/*Footer efectos hover*/
-.colorfb:hover {
-  color: #0065fd;
-}
-
-.colortw:hover {
-  color: #4aa9f6;
-}
-
-.colorig:hover {
-  color: #ed38ed;
-}
