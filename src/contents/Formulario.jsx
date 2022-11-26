@@ -25,7 +25,7 @@ const Formulario = () => {
   })
 
   return (
-<div className="bg-black pb-5">
+<div className="bg-black pb-5 contact ">
 <Form onSubmit={handleSubmit} className="bg-black" >
       <Form.Group>
       <Form.Label htmlFor='name' className="text-white"> Nombre </Form.Label>

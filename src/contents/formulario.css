@@ -12,3 +12,7 @@ textarea {
     margin: 8px 0;
     display: block;
   }
+
+  .contact {
+    min-width: 100vh;
+  }
