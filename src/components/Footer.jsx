@@ -15,7 +15,7 @@ const Footer = () => {
                         <div>
                             <div><Link to="/Menu" className="fs-5 text-decoration-none text-white " > Menu</Link></div>
                             <div><Link to="/Contacto" className="fs-5 text-decoration-none text-white" > Contacto</Link></div>
-                            <div><Link to="/Donde" className="fs-5 text-decoration-none text-white" > Locales</Link></div>
+                            <div><Link to="/Ubicacion" className="fs-5 text-decoration-none text-white" > Locales</Link></div>
                         </div>
                     </div>
 
