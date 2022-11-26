@@ -1,5 +1,7 @@
 import React from "react";
 import { collection, getDocs } from 'firebase/firestore';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
 import { BurgerList } from "../components/BurgerList";
 import { BurgerItem } from "../components/BurgerItem";
@@ -78,6 +80,22 @@ const Hamburguesas = () => {
                         ))
                     }
                 </BurgerList>
+            </div>
+            <div>
+                {
+            bebida.map(B => (
+                <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src={B.img} />
+                    <Card.Body>
+                        <Card.Title>{B.nomb}</Card.Title>
+                        <Card.Text>
+                        {B.info}
+                        </Card.Text>
+                        <Button variant="primary">$ {B.precio}</Button>
+                    </Card.Body>
+                </Card>
+                ))
+            }
             </div>
         </div>
 
