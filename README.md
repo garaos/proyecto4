@@ -4,6 +4,7 @@ Proyecto restaurant página de muestra local de hamburguesas, con menu y contact
 
 ## Maqueta de la pagina
 
+![Prototipo](./src/img/prototipado.png)
 
 ## Integrantes
 - Patricio Hugo Bravo Gallardo
