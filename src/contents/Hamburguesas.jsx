@@ -38,9 +38,9 @@ const Hamburguesas = () => {
     }, []);
 
     return (
-        <div>
+        <div className="bg-black">
             <div>
-            <div className="pt-5 text-center"><h1>Hamburguesas</h1></div>
+            <div className="pt-5 text-center text-white"><h1>Hamburguesas</h1></div>
                 <BurgerList>
                     {
                         burger.map(B => (
@@ -56,7 +56,7 @@ const Hamburguesas = () => {
             </div>
 
             <div className="pb-5">
-                <div className="pt-5 pb-2 text-center"><h1>Bebidas</h1></div>
+                <div className="pt-5 pb-2 text-center text-white"><h1>Bebidas</h1></div>
                 <BebidaList>
                     {
                         bebida.map(B => (

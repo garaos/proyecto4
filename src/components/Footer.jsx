@@ -23,7 +23,7 @@ const Footer = () => {
 
                     <div className="col-md-5 mx-auto mt-3">
                         <h6 className="text-uppercase mb-4 fw-bold">Contacto</h6>
-                        <p><i className="fa-solid fa-house"></i>Ocean Avenue</p>
+                        <p><i className="fa-solid fa-house"></i> Ocean Avenue</p>
                         <p><i className="fa-solid fa-paper-plane"></i> <Link className="text-decoration-none text-white" href="mailto:Chunkylover53@aol.com">contacto@angryburger.com</Link></p>
                         <p><i className="fa-solid fa-mobile-screen-button"></i> 1-800-U-BURGER</p>
                     </div>

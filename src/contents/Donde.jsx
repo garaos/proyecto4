@@ -17,7 +17,7 @@ const Donde = () => {
     }, []);
 
     return (
-        <div className='row bg-black'>
+        <div className='row bg-black px-5'>
             <h1 className='mt-5 text-white '>Nuestros Locales</h1>
 
                 <div className='container col-3 mx-3 mt-5'>
@@ -34,24 +34,34 @@ const Donde = () => {
                     </MapContainer>
                 </div>
                 <div className='col-6 mt-5'>
-                    <p className='text-white '>local 1</p>
+                    <h3 className='text-white '>Casa Matriz</h3>
+                    <ul className='text-white' style={{listStyleType:'none'}}>
+                        <li><i className="fa-solid fa-house"></i> Ocean Avenue</li>
+                        <li><i className="fa-solid fa-paper-plane"></i> contacto@angryburger.com</li>
+                        <li><i className="fa-solid fa-mobile-screen-button"></i> 1-800-U-BURGER</li>
+                    </ul>
                 </div>
 
                 <div className='container col-3 mx-3 mt-5 mb-5'>
-                    <MapContainer center={[51.505, -0.09]} zoom={20} style={{ height: "30vh" }}>
+                    <MapContainer center={[-33.444687030327366, -70.6561176344248]} zoom={20} style={{ height: "30vh"}}>
                         <TileLayer
                             attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                         />
-                        <Marker position={[51.505, -0.09]}>
+                        <Marker position={[-33.444687030327366, -70.6561176344248]}>
                             <Popup>
-                                A pretty CSS3 popup. <br /> Easily customizable.
+                                Alameda <br /> desde 1981.
                             </Popup>
                         </Marker>
                     </MapContainer>
                 </div>
                 <div className='col-6 mt-5'>
-                    <p className='text-white '>local 2</p>
+                <h3 className='text-white '>Sucursal Alameda</h3>
+                    <ul className='text-white' style={{listStyleType:'none'}}>
+                        <li><i className="fa-solid fa-house"></i> Torre Entel</li>
+                        <li><i className="fa-solid fa-paper-plane"></i> contacto@angryburger.com</li>
+                        <li><i className="fa-solid fa-mobile-screen-button"></i> 1-800-E-BURGER</li>
+                    </ul>
                 </div>
    
 
