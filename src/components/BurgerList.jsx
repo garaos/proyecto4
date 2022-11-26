@@ -2,9 +2,11 @@ import React from "react";
 
 function BurgerList(props) {
   return (
-    <ul className="list-group">
-      {props.children}
-    </ul>
+    <div className="container text-center pt-2">
+    <div className="row">
+    {props.children}
+    </div>
+</div>
   )
 }
 
