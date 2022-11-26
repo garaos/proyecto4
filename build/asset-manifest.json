@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/proyecto4/static/css/main.5418f43b.css",
+    "main.js": "/proyecto4/static/js/main.a6887dba.js",
+    "static/media/img_jumbotron.jpg": "/proyecto4/static/media/img_jumbotron.8a18987c6bb21cf65b06.jpg",
+    "index.html": "/proyecto4/index.html",
+    "main.5418f43b.css.map": "/proyecto4/static/css/main.5418f43b.css.map",
+    "main.a6887dba.js.map": "/proyecto4/static/js/main.a6887dba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5418f43b.css",
+    "static/js/main.a6887dba.js"
+  ]
+}
