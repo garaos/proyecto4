@@ -26,7 +26,7 @@ const Formulario = () => {
 
   return (
    
-                <div>
+                <div className=" bg-black">
                   <Form onSubmit={handleSubmit} className="bg-black" >
                     <Form.Group>
                       <Form.Label htmlFor='name' className="text-white"> Nombre </Form.Label>
