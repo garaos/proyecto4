@@ -25,25 +25,28 @@ const Formulario = () => {
   })
 
   return (
-<div className="bg-black pb-5 contact ">
-<Form onSubmit={handleSubmit} className="bg-black" >
-      <Form.Group>
-      <Form.Label htmlFor='name' className="text-white"> Nombre </Form.Label>
-      <Form.Control id='name' name='name' type="text" value={values.name} onChange={handleChange} placeholder="Ingresa tu Nombre"/>
-      </Form.Group>
-      <Form.Group>
-      <Form.Label htmlFor='email' className="text-white">Correo</Form.Label>
-      <Form.Control id='email' name='email' type="email" value={values.email} onChange={handleChange} placeholder="Ingresa tu Correo"/>
-      </Form.Group>
-      <Form.Group>
-      <Form.Label htmlFor='contactReason' className="text-white">Motivo</Form.Label>
-      <textarea id='contactReason' name='contactReason' value={values.contactReason} onChange={handleChange} placeholder="¿Que necesitas?"></textarea>
-      </Form.Group>
-      <div className="mt-5">
-        <Button variant="warning" type='submit' >Enviar</Button>
-      </div>
-    </Form>
-</div>
+   
+                <div>
+                  <Form onSubmit={handleSubmit} className="bg-black" >
+                    <Form.Group>
+                      <Form.Label htmlFor='name' className="text-white"> Nombre </Form.Label>
+                      <Form.Control id='name' name='name' type="text" value={values.name} onChange={handleChange} placeholder="Ingresa tu Nombre" />
+                    </Form.Group>
+                    <Form.Group>
+                      <Form.Label htmlFor='email' className="text-white">Correo</Form.Label>
+                      <Form.Control id='email' name='email' type="email" value={values.email} onChange={handleChange} placeholder="Ingresa tu Correo" />
+                    </Form.Group>
+                    <Form.Group>
+                      <Form.Label htmlFor='contactReason' className="text-white">Motivo</Form.Label>
+                      <textarea id='contactReason' name='contactReason' value={values.contactReason} onChange={handleChange} placeholder="¿Que necesitas?"></textarea>
+                    </Form.Group>
+                    <div className="mt-5">
+                      <Button variant="warning" type='submit' >Enviar</Button>
+                    </div>
+                  </Form>
+                </div>
+             
+
   )
 }
 export default Formulario;
